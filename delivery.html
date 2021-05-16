@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <title>Organic market</title>
+</head>
+
+<body class="bg-light">
+  <!--Navigation bar-->
+  <div class="row w-100" id="home">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./products.html">Products</a></li>
+      <li><a href="./delivery.html">Delivery</a></li>
+    </ul>
+  </div>
+
+  <!--Forms section-->
+  <div class="container">
+    <h3 id="order">Order now by filling out this simple form:</h3>
+    <form class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Name">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <label for="inputSurname" class="form-label">Surname</label>
+        <input type="text" class="form-control" id="inputSurname" placeholder="Surname">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="yourname@example.com">
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="example: The artificial lake of Tirana">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="inputCity" class="form-label">City</label>
+        <select id="inputCity" class="form-select">
+          <option selected>Choose...</option>
+          <option>Tirana</option>
+        </select>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>Albania</option>
+        </select>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="Zip code">
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <label for="inputCategory" class="form-label">Category</label>
+        <select id="inputCategory" class="form-select">
+          <option selected>Choose...</option>
+          <option>Vegetables</option>
+          <option>Fruits</option>
+          <option>Dairy</option>
+          <option>Bakery</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Remember me
+          </label>
+        </div>
+      </div>
+      <div id="butoni" class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+    <p>*Delivery time takes up to 2 hours.</p>
+  </div>
+
+
+  <!-- Footer-->
+  <footer>
+    <p>Copyright 2021<br>Argita Dyrko All rights reserved</p>
+  </footer>
+
+</body>
+
+</html>
